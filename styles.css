@@ -1,0 +1,317 @@
+* {
+    background: lemonchiffon;
+    text-align: center;
+}
+
+body {
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    margin: 2rem auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+nav h1 {
+    text-align: center;
+}
+
+li {
+    padding: 2%;
+}
+
+#heropic {
+    width: 20rem;
+    border-radius: 10%;
+}
+
+#bio {
+    color: maroon;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.project img {
+    width: 20rem;
+    height: 13rem;
+}
+
+#top {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.contact-container {
+    margin-top: 10%;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#portfolio {
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.project {
+    margin-bottom: 6rem;
+}
+
+#contact {
+    font-size: x-large;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+    padding: 1rem;
+    border-top: 1px solid grey;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.to-top {
+    margin: 1rem 0;
+    font-size: 1rem;
+    padding: 0 0 0 0.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.name {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    * {
+        background: aliceblue;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem auto;
+    }
+
+    li {
+        padding: 1rem;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 3rem;
+    }
+
+    #heropic {
+        width: 44%;
+    }
+
+    #bio {
+        width: 55%;
+        padding: 1.2rem;
+    }
+
+    li {
+        font-weight: 900;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #portfolio {
+        width: 100%;
+    }
+
+    .project {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .project img {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .contact-container {
+        width: 75%;
+        margin: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 4rem;
+        border-top: 1px solid grey;
+    }
+
+    footer ul {
+        width: 66%;
+        padding: 0;
+    }
+
+    .to-top {
+        width: 30%;
+        font-size: 1.2rem;
+        padding: 0;
+        margin: 0 1rem;
+    }
+
+    .name {
+        margin: 1rem 0;
+        font-size: 1.4rem;
+    }
+
+    img {
+        transition-duration: 0.5s;
+    }
+
+    img:hover {
+        transform: scale(1.15);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    * {
+        background: aliceblue;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 2rem 0;
+    }
+
+    #top {
+        width: 18rem;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 45%;
+        font-weight: bold;
+        margin: 0 1rem;
+        font-size: 1.4rem;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+
+    #heropic {
+        width: 46%;
+    }
+
+    #bio {
+        width: 46%;
+        color: maroon;
+        font-size: 3rem;
+        line-height: 4.2rem;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #portfolio {
+        width: 100%;
+    }
+
+    .project {
+        width: 30%;
+        margin: 1.5%;
+    }
+
+    .project img {
+        width: 30rem;
+        height: 16rem;
+    }
+
+    .contact-container {
+        width: 75%;
+        margin: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding: 3rem 0;
+        border-top: 1px solid grey;
+    }
+
+    footer ul {
+        width: 50%;
+        padding: 0;
+    }
+
+    .to-top {
+        width: 30%;
+        font-size: 1.4rem;
+        padding: 0;
+        margin: 0 1rem;
+    }
+
+    .name {
+        margin: 1rem 0;
+        font-size: 1.4rem;
+    }
+}
